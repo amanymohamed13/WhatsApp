@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">What\'s App</string>
+    <string name="chat">Chats</string>
+    <string name="contacts">Contacts\n</string>
+    <string name="calls">Calls\n</string>
+    <string name="whatsApp">WhatsApp\n</string>
+    <string name="date">13/2/2023</string>
+    <string name="alaa">Alaa\n</string>
+    <string name="me">My Story</string>
+    <string name="story">Stories</string>
+    <string name="title">Title</string>
+    <string name="news">For You</string>
+</resources>

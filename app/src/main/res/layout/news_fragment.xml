@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height48"
+        android:layout_marginTop="@dimen/marginSmall"
+        android:layout_marginStart="@dimen/textsmall"
+        android:text="@string/news"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text24"
+         />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/parent_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/parent_recyclerview_layout" />
+
+</LinearLayout>
